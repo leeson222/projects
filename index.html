@@ -13,13 +13,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+
+  <!-- CDN -->
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/index.css">
 </head>
+
 <body>
   <header id="header">
     <div class="inner">
@@ -27,7 +32,7 @@
         <a href="index.html">
           <div class="circle"></div>
           <p>Songyi's Web Portfolio</p>
-        </a>        
+        </a>
       </div>
       <nav class="nav">
         <ul>
@@ -44,9 +49,22 @@
   <main id="main">
     <section class="mainSec mainSec1 introduce">
       <div class="mainSec1-tit flex-perpendicular">
-        <p>안녕하세요</p>
+        <div class="mainSec1-tit-hello">
+          <p><span>안</span></p>
+          <p><span>녕</span></p>
+          <p><span>하</span></p>
+          <p><span>세</span></p>
+          <p><span>요</span></p>
+        </div>
         <b>도전하는 퍼블리셔</b>
-        <p>이송이입니다.</p>
+        <div class="mainSec1-tit-hello">
+          <p><span>이</span></p>
+          <p><span>송</span></p>
+          <p><span>이</span></p>
+          <p><span>입</span></p>
+          <p><span>니</span></p>
+          <p><span>다</span></p>
+        </div>
       </div>
     </section>
     <section class="mainSec mainSec2 skill"></section>
@@ -54,5 +72,4 @@
   </main>
   <footer id="footer"></footer>
 </body>
-
 </html>

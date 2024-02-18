@@ -65,7 +65,7 @@ HEADER - S
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  background-color: #ffae00;
+  background-color: #fff;
   transition: all 0.3s;
   mix-blend-mode: difference;
 }
@@ -128,7 +128,10 @@ MAIN - S
   height: 100%;
   text-align: center;
 }
-.mainSec1 .mainSec1-tit p {
+.mainSec1 .mainSec1-tit .mainSec1-tit-hello {
+  display: flex;
+  justify-content: start;
+  align-items: center;
   font-size: 2.6rem;
 }
 .mainSec1 .mainSec1-tit b {

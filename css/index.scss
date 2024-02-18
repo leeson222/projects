@@ -28,7 +28,6 @@ COMMON - S
 COMMON - E
 ***************/
 
-
 /** - - - - - - - - - Layout - - - - - - - - -**/
 
 /***************
@@ -45,7 +44,7 @@ HEADER - S
     a { 
       display: inline-block; position: relative;
         .circle {
-          content: ""; display: block; position: absolute; right: -27px; bottom: -300px; width: 150px; height: 150px; border-radius: 100%; background-color: $point-text-color; transition: all .3s; mix-blend-mode: difference;
+          content: ""; display: block; position: absolute; right: -27px; bottom: -300px; width: 150px; height: 150px; border-radius: 100%; background-color: $bgc; transition: all .3s; mix-blend-mode: difference;
         }
         &:hover .circle { bottom: -100px; }
     }
@@ -83,7 +82,8 @@ MAIN - S
   height: 600px;
   .mainSec1-tit {
     position: relative; height: 100%; text-align: center;
-    p {
+    .mainSec1-tit-hello {
+      display: flex; justify-content: start; align-items: center;
       font-size: $h1-size;
     }
     b {
