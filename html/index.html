@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Song's portfolio</title>
+
+  <!-- font -->
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+  <script src="https://unpkg.com/split-type"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/index.sass">
+
+  <!-- JS -->
+  <script src="/js/three.js"></script>
+  <script src="/js/gsap.js"></script>
+  <script src="/js/header.js"></script>
+  <script src="/js/script.js"></script>
+
+
+</head>
+
+<body>
+  <header id="header" class="fadeIn">
+    <div class="headerInner">
+      <div class="logo">
+        <a href="index.html">
+          <div class="circle"></div>
+          <p>Songyi's Web Portfolio</p>
+        </a>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Introduce</a></li>
+          <li><a href="#">Skill</a></li>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+      </nav>
+      <div class="tnb">
+        <div class="tnbWrap">
+          <div class="cubeWrap">
+            <div class="cube top"></div>
+            <div class="cube bottom"></div>
+            <div class="cube left"></div>
+            <div class="cube right"></div>
+            <div class="cube front"></div>
+            <div class="cube back"></div>
+          </div>
+          <a href="#">contact</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="mainSec mainSec1 visual">
+      <div class="visualWrap flex-perpendicular">
+        <div class="visual-tit-inner">
+          <div class="visual-tit visual-tit1 split">하루하루 즐겁게!</div>
+          <div class="visual-tit-pb split">도전하는 퍼블리셔</div>
+          <div class="visual-tit visual-tit2 split">이송이입니다</div>
+        </div>
+        <div class="visual-bg-wrap">
+          <strong class="visual-bg1">WELCOME TO MY PORTFOLIO SITE</strong>
+          <strong class="visual-bg2">WELCOME TO MY PORTFOLIO SITE</strong>
+        </div>
+      </div>
+      <div class="scrollDown">
+        <p>Scroll Down Please</p>
+        <i>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+            y="0px" width="22.54px" height="36px" viewBox="0 0 22.54 36" style="enable-background:new 0 0 22.54 36;"
+            xml:space="preserve">
+            <style type="text/css">
+              .st0 {
+                fill: none;
+                stroke: #000000;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-miterlimit: 10;
+              }
+            </style>
+            <defs>
+            </defs>
+            <g>
+              <line class="st0" x1="11.27" y1="0.5" x2="11.27" y2="35.5" />
+            </g>
+            <line class="st0" x1="0.5" y1="22.94" x2="11.27" y2="35.5" />
+            <line class="st0" x1="22.04" y1="22.94" x2="11.27" y2="35.5" />
+          </svg>
+        </i>
+      </div>
+      <div class="mainVisual-bg"></div>
+    </section>
+    <section class="mainSec mainSec2 introduce">
+      <div class="inner">
+        <div class="introduceWrap">
+          <h2 class="h2 txtCenter split2">MY KEYWORD</h2>
+          <div class="introduceWrap-contents">
+            <article class="introduceWrap-article">
+              <strong class="tit">MBTI</strong>
+              <p class="desc">ENTP</p>
+            </article>
+            <article class="introduceWrap-article">
+              <strong class="tit">FAVORITE</strong>
+              <div class="desc-wrap">
+                <p class="desc">자기개발</p>
+                <p class="desc">게임</p>
+                <p class="desc">인터렉션한 애니메이션</p>
+              </div>
+            </article>
+            <article class="introduceWrap-article">
+              <strong class="tit">총 경력?</strong>
+              <p class="desc">1년</p>
+            </article>
+            <article class="introduceWrap-article">
+              <strong class="tit">성격</strong>
+              <div class="desc-wrap">
+                <p class="desc">활동적인</p>
+                <p class="desc">도전적인</p>
+                <p class="desc">아이디어 창고</p>
+                <p class="desc">추진력 200%</p>
+                <p class="desc">사회적인</p>
+              </div>
+            </article>
+          </div>
+          <div class="introduce-bg">
+            <div class="introduce-bg1"></div>
+            <div class="introduce-bg2"></div>
+            <div class="introduce-bg3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mainSec mainSec3 mySkill">
+      <div class="inner">
+        <article class="skillWrap">
+          <article class="skillDescription">
+            <h2 class="h3 split3">이런 걸 할 줄 알아요</h2>
+            <ul>
+              <li>
+                <em class="tit">HTML</em>
+                <p class="desc">웹 표준을 바탕으로 <em>시멘틱 구조의 마크업</em>을 할 수 있습니다. <em>반응형 제작 경험이 많습니다.</em></p>
+              </li>
+              <li>
+                <em class="tit">CSS</em>
+                <p class="desc"><em>CSS3</em>를 이용하여 보다 <em>빠르게, 스타일리쉬하게</em> 커스터마이징 할 수 있습니다.</p>
+              </li>
+              <li>
+                <em class="tit">SASS</em>
+                <p class="desc"><em>SASS</em>를 활용하여 <em>반복적인 내용</em>을 줄이고 <em>효율적인 스타일시트 관리</em>가 가능합니다.</p>
+              </li>
+              <li>
+                <em class="tit">JavaScript</em>
+                <p class="desc">반복문을 사용하여 혼자서 <em>슬라이드 구현이 가능</em>합니다. <em>꾸준히 공부</em>하고 있습니다.</p>
+              </li>
+              <li>
+                <em class="tit">JQuery</em>
+                <p class="desc">다양한 선택자와 마우스 이벤트 등을 활용하여 <em>동적 애니메이션 구현이 가능</em>합니다.</p>
+              </li>
+              <li>
+                <em class="tit">GSAP</em>
+                <p class="desc">스크롤 트리거를 활용하여 다양한 <em>스크롤 애니메이션 구현이 가능</em>합니다.<br>보고 계시는 포트폴리오 사이트 또한 <em>Gsap을 활용</em>하였습니다.</p>
+              </li>
+              <li>
+                <em class="tit">Photoshop</em>
+                <p class="desc"><em>웹 시안</em> 제작과 <em>그래픽 디자인, 사진 편집</em>을 할 수 있습니다.</p>
+              </li>
+              <li>
+                <em class="tit">Illustrator</em>
+                <p class="desc"><em>로고, 인포그래픽</em> 제작이 가능합니다.</p>
+              </li>
+              <li>
+                <em class="tit">Indesign</em>
+                <p class="desc">실제로 출판되는 <em>카탈로그를 제작</em>할 수 있습니다.</p>
+              </li>
+            </ul>
+          </article>
+          <article class="skill">
+            <div class="skillName HTML">
+              <span>HTML</span>
+              <div class="graph graph1 graphHigh"></div>
+            </div>
+            <div class="skillName CSS">
+              <span>CSS</span>
+              <div class="graph graph2 graphHigh"></div>
+            </div>
+            <div class="skillName SASS">
+              <span>SASS</span>
+              <div class="graph graph3 graphLow"></div>
+            </div>
+            <div class="skillName JavaScript">
+              <span>JavaScript</span>
+              <div class="graph graph4 graphLow"></div>
+            </div>
+            <div class="skillName JQuery">
+              <span>JQuery</span>
+              <div class="graph graph5 graphMiddle"></div>
+            </div>
+            <div class="skillName GSAP">
+              <span>GSAP</span>
+              <div class="graph graph9 graphMiddle"></div>
+            </div>
+            <div class="skillName Photoshop">
+              <span>Photoshop</span>
+              <div class="graph graph6 graphHigh"></div>
+            </div>
+            <div class="skillName Illustrator">
+              <span>Illustrator</span>
+              <div class="graph graph7 graphHigh"></div>
+            </div>
+            <div class="skillName Indesign">
+              <span>Indesign</span>
+              <div class="graph graph8 graphMiddle"></div>
+            </div>
+          </article>
+        </article>
+      </div>
+    </section>
+    <section class="mainSec mainSec4 portfolio">
+      <div class="inner">
+        <div class="portfolioWrap">
+          <article>
+
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="mainSec mainSec5 contact">
+      <div class="contactWrap">
+        <div class="inner">
+          <article class="airdrop">
+            <div class="airdropTxt">
+              <strong>AirDrop</strong>
+              <p>이송이😆님이 당신에게 열정과 노력을 공유하려고 합니다.</p>
+            </div>
+            <img src="img/airdrop.jpeg" alt="air_drop">
+            <div class="airdropBtn-wrap">
+              <button>수락</button>
+              <button>수락</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer"></footer>
+</body>
+
+</html>
